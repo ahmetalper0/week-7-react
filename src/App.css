@@ -1,0 +1,91 @@
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.add-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.save-button {
+  background-color: #2196f3;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.save-button:hover {
+  background-color: #1e87db;
+}
+
+.edit-button {
+  background-color: #2196f3;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.edit-button:hover {
+  background-color: #1e87db;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f2f2f2;
+  padding: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
